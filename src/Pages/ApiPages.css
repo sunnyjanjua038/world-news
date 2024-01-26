@@ -1,0 +1,25 @@
+.story-details-card {
+    width: 1000px;
+    height: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .story-details-card button {
+    margin-bottom: 10px;
+  }
+  
+  .story-details-card .story-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .story-details-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .story-details-card .text-content {
+    overflow-y: auto;
+  }
+  

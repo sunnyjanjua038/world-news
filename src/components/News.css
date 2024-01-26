@@ -1,0 +1,279 @@
+
+.box{
+    position: relative;
+    bottom:80px ;
+    width: 700px;
+    height: 130px;
+    border: 2px solid ghostwhite;
+    align-items: center;
+    text-align: center;
+    margin-left: 250px;
+    background-color: ghostwhite;
+}
+.firstmaindiv{
+    position: relative;
+    bottom: 30px;
+    background-color: rgb(222, 213, 213);
+    display: flex;
+    width: 855px;
+    height: 250;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.para{
+    margin-top: 50px;
+}
+.homefirstimage{
+   height: 270px;
+   width: 1400px; 
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+/* .firstmaindiv:hover .firstheading {
+    color: blue;
+    cursor: pointer;
+} */
+.firstheading{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+.firstpara{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 29px;
+}
+.secondpara{
+    margin-left: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+}
+
+.firstmaindiv:hover .firstheading {
+    color: darkorchid;
+    cursor: pointer;
+}
+
+.secondpara:hover  {
+    color: darkorchid; 
+}
+.secondcard:hover .headingcardtwo {
+    color: darkorchid;
+      
+  }
+  .headingcardtwo:hover{
+    color: darkorchid;
+     
+  }
+.firstcart{
+    display: flex;
+    /* border: 2px solid blue; */
+    margin-right: 320px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    font-size: 10px;
+    font-weight: bold;   
+}
+.cardsfive{
+    width: 18rem;
+    border: none;
+    margin-right: 20px;
+}
+.cardsfive:hover{
+    color: darkorchid;
+    cursor: pointer;
+}
+.secondcard{
+    display: flex;
+    flex-direction: row;
+    width: 72%;
+    height: 150px;
+    /* border: none; */
+    margin-bottom: 20px;
+}
+.imagesecndcard{
+    height: 150px;
+    margin-left: 15px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.boxone{
+    width: 8px;
+    height: 18px;
+    /* border: blue; */
+    background-color:darkorchid;
+    margin-left: 22px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    
+}
+.mainbox{
+    display: flex;
+}
+.headingsecond{
+    position: relative;
+    right: 10px;
+    bottom: 2px;
+    font-size: 15px;
+    margin-left: 18px;
+    
+}
+
+.imagesecndcard:hover + .headingcardtwo{
+    color: blue;
+    cursor: pointer;
+}
+.btnfirst{
+    /* background-color: palevioletred; */
+    
+    margin-bottom: 30px;
+    margin-left: 500px;
+    border: 2px solid gainsboro;
+    padding: 5px;
+    padding-right:20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.btnfirst:hover{
+    background-color: cadetblue;
+    font-weight: bold;
+}
+
+.sidenewsbox{
+    position: absolute;
+    background-color: ghostwhite;
+    height: 180px;
+    top: 345px;
+    left: 910px;
+    height: 250px;
+    width: 280px;
+   
+   
+    box-shadow: 5px 15px 10px  rgb(206, 199, 199);
+    border-radius: 5px;
+    /* border: 2px solid rebeccapurple; */
+}
+.boxsideone{
+    position: absolute;
+    top: 2px;
+    width: 8px;
+    height: 18px;
+    background-color:darkorchid;
+    border-radius: 3px; 
+
+}
+.sideparades{
+    font-size: 12px;
+  
+}
+.sidefooter{
+     margin-right: 30px;
+    position:fixed;
+    top: 380px;
+    right: 0;
+    height: 180px;
+    width: 280px;
+    
+}
+
+.awsomeicons{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.fotparaone{
+    font-size: 13px;
+    color: gray;
+    padding: 5px;
+    margin-left: 10px;
+}
+.fotparasecond{
+    font-size: 12px;
+    color: gray;
+    margin-left: 40px;
+    position: relative;
+    bottom: 10px;
+}
+.sideone{
+    color: gray;
+    font-size: normal;
+}
+.sideparanews{
+    font-size: 13px;
+    margin-left: 7px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: start;
+}
+.colorside{
+    color: darkorchid;
+    
+}
+.sideparanews:hover{
+    color: darkorchid;
+    cursor: pointer;
+}
+.fistspenever{
+    color: black;
+}
+.fistspenever:hover{
+    color: darkorchid;
+}
+.lastspan{
+    color: black;
+}
+.lastspan:hover{
+color:  darkorchid;    
+}
+.sixethside{
+    margin-left: 16px;
+    color: darkorchid;
+
+}
+.sevelntside{
+    margin-left: 49px;
+    color: darkorchid;
+}
+.eightside{
+    margin-left: 36px;
+    color: darkorchid;
+}
+.ninethside{
+    color: darkorchid;
+    margin-left: 50px;
+}
+.tenthside{
+    color: darkorchid;
+    margin-left: 38px;
+}
+.holidaygift{
+    margin-left: 35px;
+}
+.holidaygift:hover{
+    color: darkorchid;
+    cursor: pointer;
+}
+.trandingnews:hover{
+    color: darkorchid;
+    cursor: pointer;
+}
+.fotparaonestyle:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.fotparaonestyless{
+    margin-left: 80px;
+}
+.fotparaonestyless:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.msss{
+    margin-left: 30px;
+}

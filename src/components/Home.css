@@ -1,0 +1,272 @@
+/* body{
+    background-color: gainsboro;
+} */
+.box{
+    position: relative;
+    top: 100px;
+    width: 700px;
+    height: 130px;
+    border: 2px solid ghostwhite;
+    align-items: center;
+    text-align: center;
+    margin-left: 250px;
+    background-color: ghostwhite;
+}
+.firstmaindiv{
+    position: relative;
+    bottom: 30px;
+    background-color: rgb(222, 213, 213);
+    display: flex;
+    width: 855px;
+    height: 250;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.para{
+    margin-top: 50px;
+}
+.homefirstimage{
+   height: 270px;
+   width: 1400px; 
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.firstmaindiv{
+    /* position: inherit; */
+    margin-top: 175px;
+}
+/* .firstmaindiv:hover .firstheading {
+    color: blue;
+    cursor: pointer;
+} */
+.firstheading{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+.firstpara{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 29px;
+}
+.secondpara{
+    margin-left: 60px;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+}
+
+.firstmaindiv:hover .firstheading {
+    color: darkorchid;
+    cursor: pointer;
+}
+.secondcard:hover .headingcardtwo {
+    color: darkorchid;
+      
+  }
+  .headingcardtwo:hover{
+    color: darkorchid;
+     
+  }
+
+.secondpara:hover  {
+color: darkorchid;}
+
+.firstcart{
+    display: flex;
+    /* border: 2px solid blue; */
+    margin-right: 320px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    font-size: 10px;
+    font-weight: bold;   
+}
+.cardsfive{
+    width: 18rem;
+    border: none;
+    margin-right: 20px;
+}
+.cardsfive:hover{
+    color: darkorchid;
+    cursor: pointer;
+}
+.secondcard{
+    /* position: absolute; */
+    /* z-index: 1; */
+    display: flex;
+    flex-direction: row;
+    width: 72%;
+    height: 150px;
+    cursor: pointer;
+    /* border: none; */
+    margin-bottom: 20px;
+}
+.imagesecndcard{
+    height: 150px;
+    margin-left: 15px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.boxone{
+    width: 8px;
+    height: 18px;
+    /* border: blue; */
+    background-color:darkorchid;
+    margin-left: 22px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    
+}
+.mainbox{
+    display: flex;
+}
+.headingsecond{
+    position: relative;
+    right: 10px;
+    bottom: 2px;
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 18px;
+    
+}
+
+.imagesecndcard:hover + .headingcardtwo{
+    color: blue;
+    cursor: pointer;
+}
+.btnfirst{
+    /* background-color: palevioletred; */
+    
+    margin-bottom: 30px;
+    margin-left: 500px;
+    border: 2px solid gainsboro;
+    padding: 5px;
+    padding-right:20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.btnfirst:hover{
+    background-color: cadetblue;
+    font-weight: bold;
+}
+.sidecard {
+    border: none;
+    width: 18rem;
+    position: absolute;
+    /* z-index: -1; */
+    
+    top: 370px;
+    left: 900px;
+    background-color: ghostwhite;
+}
+.sideheading{
+    position: absolute;
+    z-index: -1;
+    top: 345px;
+    left: 910px;
+   
+}
+.boxsideone{
+    position: absolute;
+    /* right: 40px; */
+    left: -12px;
+     /* top: 0;
+     
+     border: none; */
+    width: 8px;
+    height: 18px;
+    background-color:darkorchid;
+    border-radius: 3px; 
+
+}
+.secondbutton{
+    color: white;
+    font-weight: bold;
+    margin-left: 70px;
+    text-align: center;
+    border: 2px solid gainsboro;
+    padding-right:20px;
+    padding-left: 20px;
+    border-radius: 25px;
+    background-color: darkorchid;
+    font-size: 11px;
+}
+.secondbutton:hover{
+    background-color: cadetblue;
+    border: 2px solid cadetblue;
+    font-weight: bold;
+    color: black;
+
+}
+.thirdparaimg{
+    height: 80px;
+    object-fit: cover;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    width: 100%;
+}
+.sideparades{
+    font-size: 12px;
+}
+.sidefooter{
+    margin-right: 30px;
+    position:fixed;
+    z-index: -1;
+    top: 380px;
+    right: 0;
+    height: 180px;
+
+    
+}
+
+.awsomeicons{
+    /* margin-left: 55px; */
+    margin-top: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.msss{
+    margin-left: 30px;
+}
+.fotparaone{
+    font-size: 13px;
+    color: gray;
+    padding: 5px;
+    margin-left: 10px;
+}
+.fotparasecond{
+    font-size: 13px;
+    color: gray;
+    margin-left: 40px;
+    position: relative;
+    bottom: 10px;
+}
+.fotparaonestyle:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.fotparaonestyless{
+    margin-left: 80px;
+}
+.fotparaonestyless:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+   
+}
+.sixondnavbar{
+    position: relative;
+    top: 66px;
+    padding-left: 40px;
+    padding: 15px;
+    background-color: rebeccapurple;
+    cursor: pointer;
+}
+.abcd{
+    position: relative;
+    top: 180px;
+}

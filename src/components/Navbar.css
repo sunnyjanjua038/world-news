@@ -1,0 +1,167 @@
+.bound{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    height: 60px;
+}
+.firstlogo{
+    /* height: 10px; */
+    /* width: 30px; */
+    /* position: fixed; */
+    position: relative;
+    /* z-index: -1; */
+    bottom: 2px; 
+    /* left: 5px;  */
+}
+
+.logospanfirst{
+    font-size: 24px;
+    font-style: italic;
+    color: blue;
+    font-weight:1000;
+}
+.logospantwo{
+    color: black;
+    font-weight:1000;
+    font-size: 22px;
+
+
+}
+.brand{
+    position: relative;
+    bottom: 4px;
+    
+    /* right: 20px; */
+    /* left: 20px; */
+    /* right: 10px; */
+    
+}
+.band{
+    position: relative;
+    bottom:  4px;
+    right: 190px;
+    
+    margin-right: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.bandss{
+    position: relative;
+    bottom:  4px;
+    right: 180px;
+    
+    margin-right: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.bandss:hover{
+    color: blue;
+}
+.band:hover{
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+.banddd{
+    position: relative;
+    bottom:  4px;
+    right: 170px;
+    
+    margin-right: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.banddd:hover{
+    color: blue;
+}
+.bandds{
+    position: relative;
+    bottom:  4px;
+    right: 160px;
+    
+    margin-right: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.bandds:hover{
+color: blue;
+}
+.email{
+    position: relative;
+    bottom: 50px;
+    left: 1030px;
+    font-size: 15px;
+
+}
+.email:hover{
+    color: blue;
+}
+.bands{
+    position: relative;
+    bottom: 50px;
+ 
+}
+.dropdown{
+    font-size: 15px;
+    
+}
+.dropdown:hover{
+    color: blue;
+}
+.btn-first{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    /* margin-bottom: 10px; */
+
+}
+.btn-first:hover{
+    background-color: white;
+    color: blue;
+    border-radius: 15px;
+}
+.inputfield{
+    width: 550px;
+    border-radius: 15px;
+    margin-right: 200px;
+    padding: 6px;
+    background-color: rgb(238, 228, 228);
+}
+.inputfield:hover{
+    background-color: white;
+}
+.micro{
+    position: relative;
+    left: 470px;
+    bottom: -10px;
+    font-size: 17px;
+}
+
+.searchbox {
+    position: relative;
+    bottom: -4px;
+    right:185px;
+    background-color: blue; 
+    display: inline-block; 
+    padding: 10px; 
+    border-radius: 18px;
+    width: 45px;
+    height: 20px;
+  }
+  
+  .search-icon-inner {
+    display: inline-block;
+    color: white;
+  }
+  
+  .search-icon img {
+    
+    width: 30px; 
+    height: 10px; 
+  }
+  
+  
